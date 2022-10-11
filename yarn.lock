@@ -1088,6 +1088,11 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
+cypress-layout-inspector@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/cypress-layout-inspector/-/cypress-layout-inspector-1.6.1.tgz#c4d39576bf2e38a6df70f9b2c0d71b8a6a1e596c"
+  integrity sha512-CiBz/hacANXJw14UWI4dTfkQzw13jwlrp/YIzYXAmEJJiPrn2thHronBOX8A+iB1dcgBtNE5T5wezim/rVAAhw==
+
 cypress-multi-reporters@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/cypress-multi-reporters/-/cypress-multi-reporters-1.4.0.tgz#5f1d0484a20959cfe782f1bf65ad16c6ad804da7"

@@ -85,7 +85,10 @@ describe('Trybewarts', () => {
     });
 
     it('O logotipo deve estar alinhado à esquerda dentro da barra verde', () => {
-      cy.get(TRYBEWARTS_LOGO_SELECTOR).should('be.leftAligned', TOP_BAR_SELECTOR);
+      cy.configureLayoutInspector({
+        excludePadding: true,
+      });
+      cy.get(TRYBEWARTS_LOGO_SELECTOR).should('be.inside', TOP_BAR_SELECTOR, {left: 0});
     });
 
     it('O atributo src do logotipo deve apontar para images/trybewarts-header-logo.svg', () => {
