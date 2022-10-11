@@ -53,13 +53,29 @@
   width: 100vw;
 }
 
+.logo-content {
+  align-items: center;
+  display: flex;
+  width: calc(100% / 3);
+}
+
 .trybewarts-header-logo {
   height: 70px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: calc(100% / 3);
 }
 
 .trybewarts-login {
   align-items: flex-end;
   display: flex;
+  justify-content: end;
+  width: calc(100% / 3);
 }
 
 .login-inputs {
