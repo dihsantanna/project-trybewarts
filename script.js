@@ -195,7 +195,13 @@ const createSpanToSubmint = (text) => {
 
 const insertElementsInForm = (elementArr) => {
   evaluationForms.innerHTML = '';
-  elementArr.forEach((element) => evaluationForms.appendChild(element));
+  evaluationForms.classList.add('evaluation-saved');
+
+  const div = document.createElement('div');
+  div.className = 'evaluation-saved-container';
+
+  elementArr.forEach((element) => div.appendChild(element));
+  evaluationForms.appendChild(div);
 };
 
 const createSubmitElements = ({

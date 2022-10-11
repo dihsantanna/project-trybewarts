@@ -133,6 +133,43 @@ main {
   width: 675px;
 }
 
+.evaluation-saved {
+  animation: open-paper 1.5s backwards;
+  align-items: center;
+  background: url('images/papyrus.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.evaluation-saved-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 2rem;
+  width: 50%;
+}
+
+@keyframes open-paper {
+
+  from {
+    color: transparent;
+    opacity: 0;
+    transform: scaleY(0) scaleX(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  to {
+    color: black;
+  }
+}
+
+
 fieldset {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--silver);
