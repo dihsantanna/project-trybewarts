@@ -14,11 +14,11 @@
       </feMerge>
       <feComposite in="SourceGraphic" in2="lighting" operator="arithmetic" k1="1" k2="0.35" k3="0" k4="0"/>
     </filter>
-    <filter id="point-light-filter-1" primitiveUnits="objectBoundingBox" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="point-light 1 0.5 0.5 0.5 128 0.01 0.01 0.35 #ffffff">
+    <filter id="point-light-filter-1" primitiveUnits="objectBoundingBox" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="point-light 1 0.5 0.5 0.5 128 0.01 0.6 0.35 #ffffff">
       <feSpecularLighting result="specular-lighting" lighting-color="#ffffff" specularConstant="0.01" specularExponent="128">
         <fePointLight x="0.5" y="0.5" z="0.5"/>
       </feSpecularLighting>
-      <feDiffuseLighting result="diffuse-lighting" lighting-color="#ffffff" diffuseConstant="0.01">
+      <feDiffuseLighting result="diffuse-lighting" lighting-color="#ffffff" diffuseConstant="0.6">
         <fePointLight x="0.5" y="0.5" z="0.5"/>
       </feDiffuseLighting>
       <feMerge result="lighting">
