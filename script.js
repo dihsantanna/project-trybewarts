@@ -105,7 +105,6 @@ const createHouses = () => {
 const handlerRegisterChange = ({ target }) => {
   const { name, value } = target;
   FORMS_INFO[name] = target.type === 'checkbox' ? target.checked : value;
-  console.log(FORMS_INFO);
 };
 
 const handleSelectHouses = (event) => {
