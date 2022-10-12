@@ -14,8 +14,8 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import "cypress-layout-inspector/add-support";
 import './commands';
-import '@david-boydell/cypress-layout';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

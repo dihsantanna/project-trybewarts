@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Trybewarts</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo-content">
+      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts" />
+    </div>
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form method="POST" class="trybewarts-login">
+      <div class="login-inputs">
+        <input type="text" name="email" id="login" class="input" placeholder="Login" required>
+        <input type="password" name="password" id="password" class="input" placeholder="Senha" required>
+      </div>
+      <button type="submit" id="login-button" class="button login-btn">Entrar</button>
+    </form>
+  </header>
+  <main>
+    <form method="POST" id="evaluation-form">
+      <fieldset>
+        <legend class="legend">Formulário de Avaliação</legend>
+        <div class="name-content">
+          <input type="text" name="name" id="input-name" placeholder="Nome" class="input" required>
+          <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome" class="input" required>
+        </div>
+        <div class="other-infos">
+          <input type="email" name="email" id="input-email" placeholder="Email" class="input" required>
+          <label for="house" class="house-label">
+            Casa:
+            <select name="house" id="house" class="input" required></select>
+          </label>
+        </div>
+        <hr>
+        <div class="middle-forms">
+          <div id="family-container">
+            <label id="label-family">
+              Qual sua família?
+            </label>
+          </div>
+          <div id="subjects-container">
+            <label id="label-content">
+              Qual conteúdo você está com mais vontade de aprender?
+            </label>
+            <div id="subjects">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div id="rate-content">
+          <label id="label-rate">
+            Como você avalia a Trybewarts?
+          </label>
+          <div id="rate-radios">
+          </div>
+        </div>
+        <div id="textarea-content">
+          <label class="textarea">
+            Deixe seu comentário:
+          </label>
+          <textarea name="comment" id="textarea" cols="30" rows="10" maxlength="500" class="input" required></textarea>
+          <span id="counter">500</span>
+        </div>
+        <div id="agreement-content">
+          <label id="label-infos">
+            Você concorda com o uso das informações acima?
+            <input type="checkbox" name="agreement" id="agreement" required>
+          </label>
+        </div>
+        <div id="submit-content">
+          <button type="submit" id="submit-btn" class="button" disabled>Enviar</button>
+        </div>
+      </fieldset>
+    </form>
+    <div class="image-content">
+      <img src="images/trybewarts-colored.svg" alt="Trybewarts shield" id="trybewarts-forms-logo" />
+    </div>
+  </main>
+  <footer class="footer">
+    Direitos reservados à Trybewarts©
+  </footer>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>

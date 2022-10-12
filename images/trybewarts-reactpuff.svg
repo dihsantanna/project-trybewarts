@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="svg96" width="1234.6667" height="1345.3333" viewBox="0 0 1234.6667 1345.3333" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs id="defs100">
-    <filter id="point-light-filter-0" primitiveUnits="objectBoundingBox" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="point-light 1 0.5 0.5 0.5 128 0.01 0.01 0.35 #ffffff">
+    <filter id="point-light-filter-0" primitiveUnits="objectBoundingBox" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="point-light 1 0.5 0.5 0.5 128 0.01 0.6 0.35 #ffffff">
       <feSpecularLighting result="specular-lighting" lighting-color="#ffffff" specularConstant="0.01" specularExponent="128">
         <fePointLight x="0.5" y="0.5" z="0.5"/>
       </feSpecularLighting>
-      <feDiffuseLighting result="diffuse-lighting" lighting-color="#ffffff" diffuseConstant="0.01">
+      <feDiffuseLighting result="diffuse-lighting" lighting-color="#ffffff" diffuseConstant="0.6">
         <fePointLight x="0.5" y="0.5" z="0.5"/>
       </feDiffuseLighting>
       <feMerge result="lighting">

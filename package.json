@@ -1,8 +1,8 @@
 {
-  "name": "sd-0x-project-trybewarts-rubric",
+  "name": "project-trybewarts",
   "version": "1.0.0",
   "description": "Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
@@ -12,19 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betrybe/sd-0x-project-trybewarts-rubric.git"
+    "url": "git@github.com:dihsantanna/project-trybewarts.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/betrybe/sd-0x-project-trybewarts-rubric/issues"
-  },
-  "homepage": "https://github.com/betrybe/sd-0x-project-trybewarts-rubric#readme",
+  "homepage": "https://github.com/dihsantanna/project-trybewarts",
   "devDependencies": {
-    "@david-boydell/cypress-layout": "0.0.2",
     "@types/cypress": "1.1.3",
     "cypress": "^6.8.0",
+    "cypress-layout-inspector": "^1.6.1",
     "cypress-multi-reporters": "1.4.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "14.2.1",
